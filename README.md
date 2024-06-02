@@ -5,6 +5,7 @@ Web app to download videos from your favorite video platforms and storing it in 
 
 - [Getting Started](#getting-started)
 - [Installation](#installation)
+- [Things to add](#things-to-add)
 
 
 ## Getting Started
@@ -47,6 +48,11 @@ Install dependencies
   python app.py
 ```
 The app should open in a browser tab.
+
+##Things to add
+1.Package the app into a binary using pyi-makespec.
+2.Make a dynamic webpage for showing download progress and showing the URL metadata .
+3.Add support for downloading playlist.
 
 
 
