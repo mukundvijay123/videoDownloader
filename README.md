@@ -49,7 +49,7 @@ Install dependencies
 ```
 The app should open in a browser tab.
 
-##Things to add
+## Things to add
 1.Package the app into a binary using pyi-makespec.
 2.Make a dynamic webpage for showing download progress and showing the URL metadata .
 3.Add support for downloading playlist.
