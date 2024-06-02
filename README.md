@@ -41,6 +41,12 @@ Install dependencies
   ```bash
   pip install -r requirements.txt
   ```
+
+To check if ffmpeg is installed on your sytstem.
+   ```bash
+   ffmpeg --version
+   ```
+
 3. **Running the app**
 
 ```bash
