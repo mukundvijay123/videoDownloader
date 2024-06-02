@@ -15,7 +15,7 @@ These instructions will help you set up and run the Flask application on your lo
 ### Prerequisites
 
 Ensure you have Python 3.6 or higher installed on your machine. You can download Python from the [official website](https://www.python.org/downloads/).
-
+Ensure ffmpeg is installed on your system. [ffmpeg-download](https://www.hostinger.in/tutorials/how-to-install-ffmpeg#Installing_FFmpeg_on_CentOS_Fedora_and_RHEL)
 
 ### Installation
 
