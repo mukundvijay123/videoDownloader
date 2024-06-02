@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Successful</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='submit.css') }}">
+    <meta http-equiv="refresh" content="3;url={{ url_for('download') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>The url you entered isnt valid or there is an error while downloading the video</h1>
+        <p>Your information has been saved.</p>
+        <p>You will be redirected to the homepage shortly.</p>
+    </div>
+</body>
+</html>
