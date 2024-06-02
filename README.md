@@ -29,6 +29,12 @@ These instructions will help you set up and run the Flask application on your lo
 
 2. **Make a Virtual environment and install dependencies**
 
+Creating Venv
+   ```bash
+   python -m venv MyVenv
+   ```
+
+
 On Windows
   ```bash
   MyVenv\Scripts\activate
