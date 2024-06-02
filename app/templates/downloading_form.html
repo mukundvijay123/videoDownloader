@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Video</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='download_form.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Download Video</h1>
+        <form action="/" method="post">
+            <label for="url">Video URL:</label>
+            <input type="text" id="url" name="url" required>
+
+            <label for="format">Format:</label>
+            <select id="format" name="format" required>
+                <option value="mp4">MP4</option>
+                <option value="mp3">MP3</option>
+            </select>
+
+            <div class="button-group">
+                <button type="submit">Download</button>
+                <button type="button" onclick="window.location.href='/create_profile'">Create Profile</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
