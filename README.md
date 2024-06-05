@@ -8,6 +8,7 @@ Web app to download videos from your favorite video platforms and storing it in 
 - [Things to add](#things-to-add)
 
 
+
 ## Getting Started
 
 These instructions will help you set up and run the Flask application on your local machine.
@@ -60,6 +61,8 @@ To check if ffmpeg is installed on your sytstem.
   python app.py
 ```
 The app should open in a browser tab.
+
+### Tested for Windows ,Mac and Linux.
 
 ## Things to add
 1. Package the app into a binary using pyi-makespec.
